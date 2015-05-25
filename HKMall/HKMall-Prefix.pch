@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  BaseDemo
+//
+//  Created by Long on 15/4/2.
+//  Copyright (c) 2015年 Long. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Common_color.h"
+#import "Common_define.h"
+#import "Common_font.h"
+#import "Common_limit.h"
+#import "Common_Markwords.h"
+#import "Common_time.h"
+#import "APIKey.h"
+#endif
